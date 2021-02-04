@@ -1,0 +1,76 @@
+html, body{
+    font-size: 16px;
+}
+.bg-color-principal {
+    background-color: #025e73;
+}
+.text-color-principal{
+    color: #025e73;
+}
+.bg-color-btn{
+    background-color: #049dbf;
+}
+.text-precios{
+    color: #049dbf;
+    font-size: 1.2rem;
+}
+.bg-cantidades-carrito {
+    background-color: #04f2f2;
+}
+.banner {
+    position: relative;
+    height: 300px;
+    background-image: url('../imagenes/banner.webp');
+}
+.banner .mascara {
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+}
+.banner .text{
+    z-index: 2;
+}
+.banner .text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.active{
+    text-decoration: underline;
+}
+
+@media all and (max-width:800px){
+    html, body{
+        font-size: 10px;
+    }
+
+}
+
+@media all and (max-width:1210px){
+    .text-precios{
+        font-size: 0.9rem;
+    }
+}
+@media all and (max-width:1000px){
+    .text-precios{
+        font-size: 0.7rem;
+    }
+}
+@media all and (max-width:991px){
+    .text-precios{
+        font-size: 0.6rem;
+    }
+}
+@media all and (max-width:767px){
+    .text-precios{
+        font-size: 2rem;
+    }
+}
+@media all and (max-width:280px){
+    .text-precios{
+        font-size: 1.2rem;
+    }
+}
